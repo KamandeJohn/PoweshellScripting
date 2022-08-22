@@ -1,21 +1,6 @@
 ##########
 # Win10 Initial Setup Script
-# Author: Disassembler, Gr1d:, TheRoc
-# Edited by Gr1D:
-# dasm's script: https://github.com/Disassembler0/Win10-Initial-Setup-Script/
-# TheROC's E.T. Disable script: https://gist.github.com/thoroc/86d354d029dda303598a
 
-# THIS IS VERSION 5.5, error suppression is turned on. PLEASE be patient and PLEASE restart after running the script.
-# This script leaves more MS defaults on, including MSE and smart-screen, 
-# but blocks a ton of domains and disables remote assistance secures java, sets up ipsec..
-# (please set your own key - SEE BELOW A FEW LINES) and disables SSL. Even changes your mac and takes steps to secure Google Chrome,
-# Adobe Acrobat and Adobe Reader DC. To disable skynet turn off smartscreen and antivirus.
-
-# NOTE: READ THIS SCRIPT CAREFULLY BEFORE RUNNING IT. ADJUST COMMENTS AS APPROPRIATE.
-# This script will reboot your machine when completed.
-# Setting up a new machine? See http://ninite.com (for devs, http://chocolatey.org)
-##########
- 
 # Ask for elevated permissions if required
 $ErrorActionPreference= 'silentlycontinue'
 
